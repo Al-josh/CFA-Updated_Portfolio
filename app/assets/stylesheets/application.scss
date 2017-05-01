@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "materialize";
+@import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700,700i');
+
+
+.welcome-message {
+  font-family: 'Gentium Basic', serif;
+  font-size: 2em;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.image {
+  background-image: url(http://res.cloudinary.com/dzctpgu9d/image/upload/v1493553309/aljosaicon_500x500-min_qgszbf.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 8%;
+}
+
+.col-about {
+  background-color: #456990;
+  padding-top: 10px;
+}
+
+.home {
+  background-color: #2980b9;
+  height: 100%;
+  padding-top: 10%;
+}
+// $color-collection: ('#2980b9', '#c0392b', '#1abc9c', '#f39c12', '#8e44ad', #2c3e50);
