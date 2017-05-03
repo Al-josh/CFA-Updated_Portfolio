@@ -15,7 +15,6 @@
  */
 
 @import "materialize";
-// @import url('https://fonts.googleapis.com/css?family=Gentium+Basic:400,400i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 
 .no-margin {
@@ -28,13 +27,10 @@ body {
 
 .welcome-message {
   font-family: 'Poppins', sans-serif;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 .image img {
-  // background-image: url(http://res.cloudinary.com/dzctpgu9d/image/upload/v1493553309/aljosaicon_500x500-min_qgszbf.png);
-  // background-size: cover;
-  // background-repeat: no-repeat;
   height: 200px;
   width: 200px;
   margin: auto;
@@ -43,8 +39,8 @@ body {
 
 .home {
   background-color: #2980b9;
-  height: 100%;
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 7%;
 }
 
 .cont-port {
